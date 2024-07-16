@@ -9,9 +9,9 @@ const Hero = () => {
       
 
        <div className='flex flex-1 h-full justify-center items-center mt-5 mx-4 mb-[300px] flex-col'>
-          <h1 className={`${styles.heading2}`}>Welcome to my <span className='text-gradient'>resume website</span></h1>
+          <h1 className={`${styles.heading2}`}>Welcome to <span className='text-gradient'>anurpeljto.live</span></h1>
           <div className='flex flex-col justify-between items-center h-full'>
-            <p className={`${styles.paragraph}`}>Please scroll to find out more</p>
+            <p className={`${styles.paragraph}`}>Please scroll to find out more about me</p>
           </div>
        </div>
 

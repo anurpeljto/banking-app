@@ -31,7 +31,7 @@ const Business = () =>
           My name is Anur Peljto, and I am a passionate Web Developer and programmer. Currently in the final year of my BSc studies
         </p>
 
-        <Button styles="mt-10" />
+        {/* <Button styles="mt-10" /> */}
       </div>
 
       {/* <div className={`${layout.sectionImg} flex-col`}>

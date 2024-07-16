@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, github, leetcode, leet2, linked  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,12 +6,12 @@ export const navLinks = [
     title: "About me",
   },
   {
-    id: "Projects",
-    title: "Projects",
+    id: "Qualities",
+    title: "Qualities",
   },
   {
-    id: "Socials",
-    title: "Socials",
+    id: "Skills",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -90,68 +90,26 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Check out my projects & other platforms!",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "GitHub",
+        link: "https://github.com/anurpeljto",
+        image: github
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "LeetCode",
+        link: "https://leetcode.com/u/anurpeljto/",
+        image: leet2
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/anur-peljto-073008298/",
+        image: linked
       },
     ],
   },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  
 ];
 
 export const socialMedia = [

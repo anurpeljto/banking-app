@@ -28,6 +28,11 @@ import anur from './anur_uzas.jpg';
 import robotarm from './Robot-Hand-PNG.png';
 import robotarm2 from './robot-hand-2.png';
 import robotarmmod from './Robot-Hand-PNG-vol2.png';
+import picturecode from './picture-code.jpg';
+import github from './github-mark.png';
+import leetcode from './leetcode.svg';
+import leet2 from './leet2.svg';
+import linked from './linkedin.png';
 
 export {
   airbnb,
@@ -59,5 +64,10 @@ export {
   anur,
   robotarm,
   robotarm2,
-  robotarmmod
+  robotarmmod,
+  picturecode,
+  github,
+  leetcode,
+  leet2,
+  linked
 };
