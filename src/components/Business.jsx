@@ -2,6 +2,7 @@ import React from 'react'
 import styles, {layout} from '../style';
 import {features} from '../constants';
 import Button from './Button';
+import { anur } from '../assets';
 
 const FeatureCard = ({icon, title, content, index}) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index == features.length-1 ? 'mb-0' : 'mb-6'} feature-card`}>
@@ -23,21 +24,23 @@ const FeatureCard = ({icon, title, content, index}) => (
 
 const Business = () => 
   (
-    <section id="features" className={`${layout.section} `}>
+    <section id="about" className={`${layout.section} `}>
       <div className={`${layout.sectionInfo}`}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/> we'll handle the money</h2>
+        <h2 className={styles.heading2}>Who am I?</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
+          My name is Anur Peljto, and I am a passionate Web Developer and programmer. Currently in the final year of my BSc studies
         </p>
 
         <Button styles="mt-10" />
       </div>
 
-      <div className={`${layout.sectionImg} flex-col`}>
+      {/* <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
-      </div>
+      </div> */}
+
+      <img src={anur} alt="anur" className='rounded-[40px] opacity-50 sd:mt-0 mt-5 sd:h-[20%] sd:w-[20%] h-[30%] w-[30%]'/>
     </section>
   )
 

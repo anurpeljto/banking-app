@@ -12,7 +12,7 @@ const Billing = () =>
       </div>
 
       <div className={`${layout.sectionInfo} w-[100%]`}> 
-        <h2 className={`${styles.heading2}`}>Easily control your <br className='sm:block hidden'/> billing & invoicing.</h2>
+        <h2 className={`${styles.heading2}`}>What do i have to <br className='sm:block hidden'/> offer?</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloribus asperiores qui modi tempore itaque incidunt! In cupiditate unde nesciunt accusamus dolores repellat dignissimos tempore repudiandae, rem ea voluptas quisquam!
         </p>

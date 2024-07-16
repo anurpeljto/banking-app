@@ -23,6 +23,11 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import reacticon from './React-icon (1).svg';
+import anur from './anur_uzas.jpg';
+import robotarm from './Robot-Hand-PNG.png';
+import robotarm2 from './robot-hand-2.png';
+import robotarmmod from './Robot-Hand-PNG-vol2.png';
 
 export {
   airbnb,
@@ -50,4 +55,9 @@ export {
   people01,
   people02,
   people03,
+  reacticon,
+  anur,
+  robotarm,
+  robotarm2,
+  robotarmmod
 };

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles, {layout} from '../style';
 import Button from './Button';
-import { card } from '../assets';
+import { card, robotarmmod } from '../assets';
 
 const CardDeal = () => 
   (
@@ -18,7 +18,7 @@ const CardDeal = () =>
       <div className={`${layout.sectionImg}`}>
         <div className='absolute z-[3] -right-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
         <div className='absolute z-[0] -right-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient' />
-        <img src={card} alt="card" />
+        <img src={robotarmmod} alt="card" />
       </div>
 
       
