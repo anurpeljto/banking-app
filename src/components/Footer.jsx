@@ -3,8 +3,8 @@ import { logo, github, leetcode } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col mt-10`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 flex-1 w-full`}>
+  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col mt-10`}>
+    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 flex-1 w-full mt-10`}>
       {/* <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
@@ -19,7 +19,7 @@ const Footer = () => (
       <div className="flex-1 w-full flex flex-row justify-center items-center flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
           <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-poppins text-[40px] leading-[27px] text-white font-bold">
+            <h4 className="font-poppins text-[40px] sm:leading-[27px] text-white font-bold">
               {footerlink.title}
             </h4>
             <ul className="list-none mt-4 flex flex-row justify-between items-center">

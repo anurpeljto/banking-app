@@ -13,7 +13,7 @@ const Navbar = () => {
       <img src={reacticon}  alt="logo" className="w-[50px] h-[50px]"/>
       <div className='flex flex-1 flex-col justify-start flew-wrap gap-2 ml-4'>
         <h4 className='flex-1 text-white font-poppins font-semibold text-[16px]'>Anur Peljto</h4>
-        <p className={`${styles.paragraph} text-[14px]`}>Full-Stack Web developer & student</p>
+        <p className={`${styles.paragraph} text-[14px]`}>anurpeljto@gmail.com</p>
       </div>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
