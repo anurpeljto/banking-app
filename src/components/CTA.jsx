@@ -10,7 +10,7 @@ const CTA = () =>
         <p className={`${styles.paragraph}`}>Everything you need to accept card payments and grow your business anywhere in the world</p>
       </div>
 
-      <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+      <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-12`}>
         <Button styles='rounded-[20px]'/>
       </div>
     </section>
