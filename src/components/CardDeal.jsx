@@ -50,7 +50,7 @@ const CardDeal = () =>
         <div className='absolute z-[3] -right-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
         <div className='absolute z-[0] -right-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient' />
         <img src={robotarmmod} alt="card" className='w-[100%] h-[100%] z-[0] scale-x-[-1]'/>
-        <img src={robotarm2} className='scale-x-[-1] mt-30 mr-22 h-[254.734px] w-[382px]'/>
+        {/* <img src={robotarm2} className='scale-x-[-1] mt-30 mr-22 h-[254.734px] w-[382px]'/> */}
       </div>
 
 
