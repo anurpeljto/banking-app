@@ -6,6 +6,7 @@ import {Navbar, Hero, Stats,
   CardDeal,
   Testimonials,
   Clients, CTA, Footer } from './components';
+import Portfolio from './components/Portfolio';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           {/* <Testimonials /> */}
           {/* <Clients /> */}
           {/* <CTA /> */}
+          <Portfolio/>
           <Footer />
         </div>
       </div>

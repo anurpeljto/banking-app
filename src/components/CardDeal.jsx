@@ -12,7 +12,8 @@ const CardDeal = () =>
           <ol className='flex flex-1 flex-row'>
             <div className='flex flex-1 flex-col'>
               <h3 className='font-semibold text-[25px] text-white'>Frontend</h3>
-              <span>• ReactJs</span>
+              <span>• NextJS/TS</span>
+              <span>• ReactJS/TS</span>
               <span>• Angular</span>   
               <span>• HTML/CSS/JS</span>
               <span>• TailwindCSS</span>
@@ -20,9 +21,11 @@ const CardDeal = () =>
 
            <div className='flex flex-1 flex-col'>
               <h3 className='font-semibold text-[25px] text-white mr-0'>Backend</h3>
-              <span>• NodeJs</span>
+              <span>• NodeJS</span>
+              <span>• NextJS/TS</span>
               <span>• Javascript & Typescript</span>   
               <span>• Express (ExpressJs)</span>
+              <span>• Fastify</span>
               <span>• PHP</span>
               <span>• MySQL</span>
               <span>• MongoDB</span>
