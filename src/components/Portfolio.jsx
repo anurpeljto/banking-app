@@ -12,7 +12,7 @@ const Portfolio = () => {
             <PortfolioCard href='https://scandiweb-test-1.onrender.com/' img='/scandi2.png' description='ReactJS + GraphQL (PHP) + MySQL  eCommerce site'/>
             <PortfolioCard href='https://store-frontend-8dwl.onrender.com/' img='/eComm.png' description='ReactJS + Express + MongoDB eCommerce' style='object-left'/>
             <PortfolioCard href='https://ecommerce-typing.onrender.com/' img='/business.png' description='Business Website'/>
-
+            <PortfolioCard href='https://cogniwave.vercel.app/' img='/cogniwave.png' description='cogni:wave | Next (Typescript) hobby website'/>
         </div>
 
     </section>
