@@ -7,6 +7,7 @@ import {Navbar, Hero, Stats,
   Testimonials,
   Clients, CTA, Footer } from './components';
 import Portfolio from './components/Portfolio';
+import TagManager from 'react-gtm-module';
 
 const App = () => {
   useEffect(() => {
