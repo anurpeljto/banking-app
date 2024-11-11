@@ -9,6 +9,13 @@ import {Navbar, Hero, Stats,
 import Portfolio from './components/Portfolio';
 
 const App = () => {
+  useEffect(() => {
+    const tagManagerArgs = {
+        gtmId: 'G-T5L4MELZ8T'
+    };
+    TagManager.initialize(tagManagerArgs);
+}, []);
+
   return (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
