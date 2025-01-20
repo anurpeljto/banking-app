@@ -12,7 +12,7 @@ import TagManager from 'react-gtm-module';
 const App = () => {
   useEffect(() => {
     const tagManagerArgs = {
-        gtmId: 'G-T5L4MELZ8T'
+        gtmId: 'G-EBYQDYN9VV'
     };
     TagManager.initialize(tagManagerArgs);
 }, []);
