@@ -8,6 +8,7 @@ import {Navbar, Hero, Stats,
   Clients, CTA, Footer } from './components';
 import Portfolio from './components/Portfolio';
 import TagManager from 'react-gtm-module';
+import { MetaTags } from 'react-meta-tags';
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
 
   return (
     <div className='bg-primary w-full overflow-hidden'>
+      <meta name='impact-site-verification' value='de03feec-82ce-448f-842b-25643bf6efae'></meta>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
