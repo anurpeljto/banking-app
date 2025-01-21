@@ -8,7 +8,6 @@ import {Navbar, Hero, Stats,
   Clients, CTA, Footer } from './components';
 import Portfolio from './components/Portfolio';
 import TagManager from 'react-gtm-module';
-import { MetaTags } from 'react-meta-tags';
 
 const App = () => {
   useEffect(() => {
