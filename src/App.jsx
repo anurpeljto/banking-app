@@ -19,7 +19,6 @@ const App = () => {
 
   return (
     <div className='bg-primary w-full overflow-hidden'>
-      Impact-Site-Verification: de03feec-82ce-448f-842b-25643bf6efae
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
